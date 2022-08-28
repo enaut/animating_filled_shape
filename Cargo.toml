@@ -1,0 +1,11 @@
+[package]
+name = "animating_filled_shape"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.8", features = ["dynamic"] }
+#bevy-inspector-egui = "0.12"
+bevy_prototype_lyon = "0.6"
+bevy_tweening = "0.5"
+#num-traits = "0.2"
